@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+  <!-- Подключаем normalize.css -->
+  <!-- <link rel="stylesheet" href="libs/normalize.css/normalize.css"> -->
+  <!-- Подключаем шрифты Roboto и Roboto Slab c сервиса google -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700%7CRoboto:100,300,400,500,700,900"
+    rel="stylesheet">
+  <!-- Подключаем иконочный шрифт fontawesome -->
+  <link rel="stylesheet" href="libs/@fortawesome/fontawesome-free/css/all.min.css">
+  <!-- Подключаем наш основной стиль, с которым будем работать -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>GRID-TEMPLATE</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header" style="background-image: url(assets/img/header.png)">
+    <div class="header__wave">
+      <img class="header__wave-content" src="assets/img/wawe.png" alt="wom">
+    </div>
+
+
+    <!-- header-menu -->
+    <div class="header-menu">
+
+      <div class="header-menu__container">
+
+        <!-- logo -->
+        <div class="header-logo">
+          <div class="header-logo__image" style="background-image: url(assets/img/logo_wom.png);"></div>
+          <h3 class="header-logo__title"><a class="header-logo__link" href="">MARGO BEAUTY</a></h3>
+          <div class="header-logo__subtitle">Simplicity is beautiful</div>
+        </div>
+
+        <!-- contacts -->
+        <div class="header-contacts">
+          <div class="header-contacts__item">
+            <a class="header-contacts__link header-contacts__link--phone" href="#">079165433</a>
+          </div>
+          <div class="header-contacts__item">
+            <a class="header-contacts__link header-contacts__link--mail" href="#">email@mail.ru</a>
+          </div>
+        </div>
+
+        <!-- social -->
+        <div class="header-social">
+          <div class="header-social__icon">
+            <a class="header-social__link" href="https://www.instagram.com/epilare_centru/?hl=ru" target="_blank">
+              <img class="header-social__image" src="assets/img/instagram.png" alt="instagram"></a>
+          </div>
+          <div class="header-social__icon">
+            <a class="header-social__link" href="https://www.facebook.com/profile.php?id=100009250632118"
+              target="_blank">
+              <img class="header-social__image" src="assets/img/facebook.png" alt="instagram"></a>
+          </div>
+        </div>
+
+        <!-- navbar -->
+        <nav class="header-navbar">
+          <!-- <div class="header-navbar__btn">
+            <span class="header-navbar__btn-row"></span>
+            <span class="header-navbar__btn-row"></span>
+            <span class="header-navbar__btn-row"></span>
+            <span class="header-navbar__btn-row"></span>
+            <span class="header-navbar__btn-row"></span>
+            <span class="header-navbar__btn-row"></span>
+          </div> -->
+
+          <ul class="header-navbar__list">
+            <li class="header-navbar__item">
+              <a class="header-navbar__link" href="#">Главная</a>
+            </li>
+            <li class="header-navbar__item">
+              <a class="header-navbar__link" href="#">Депиляция</a>
+            </li>
+            <li class="header-navbar__item">
+              <a class="header-navbar__link" href="#">Курсы</a>
+            </li>
+            <li class="header-navbar__item">
+              <a class="header-navbar__link" href="#">Материалы</a>
+            </li>
+            <li class="header-navbar__item">
+              <a class="header-navbar__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+
+    <!-- header-content -->
+    <div class="header-content">
+      <div class="header-content__container">
+        <div class="header-content__image">
+          <img src="assets/img/beautiful-woman2.png" alt="" class="header-content__pic">
+        </div>
+
+        <div class="header-content__flex">
+          <!-- <div class="header-content__img">a</div> -->
+          <h1 class="header-content__title">Удалим нежелательные<br>
+            волоски на любом участке<br>
+            тела максимально<br>
+            безболезненно</h1>
+
+          <ul class="header-content__list">
+            <li class="header-content__item">lorem ipsum lorem</li>
+            <li class="header-content__item">lorem ipsum lorem</li>
+            <li class="header-content__item">lorem ipsum lorem</li>
+            <li class="header-content__item">lorem ipsum lorem</li>
+          </ul>
+
+          <div class="header-content__actions">
+            <a href="#" class="btn btn--light">Learn more</a>
+          </div>
+
+        </div>
+        
+
+      </div>
+    </div>
+  </header>
+
+  <!-- section -->
+  <section class="skills">
+    <div class="skills__container">
+      <article class="skill-item">
+        <div class="skill-item__overlay" style="background-color: #2d3651;
+        opacity: 0.8;"></div>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-html.png);"></div>
+        <h3 class="skill-item__title">
+          <a class="skill-item__link" href="#">HTML</a>
+        </h3>
+      </article>
+      <article class="skill-item">
+        <div class="skill-item__overlay" style="background-color: #2d3651;
+        opacity: 0.8;"></div>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-css.png);"></div>
+        <h3 class="skill-item__title">
+          <a class="skill-item__link" href="#">CSS</a>
+        </h3>
+      </article>
+      <article class="skill-item">
+        <div class="skill-item__overlay" style="background-color: #2d3651;
+        opacity: 0.8;"></div>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-markup.png);"></div>
+        <h3 class="skill-item__title">
+          <a class="skill-item__link" href="#">Markup</a>
+        </h3>
+      </article>
+      <article class="skill-item">
+        <div class="skill-item__overlay" style="background-color: #2d3651;
+        opacity: 0.8;"></div>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-webdesign.png);"></div>
+        <h3 class="skill-item__title">
+          <a class="skill-item__link" href="#">Web-Design</a>
+        </h3>
+      </article>
+      <article class="skill-item">
+        <div class="skill-item__overlay" style="background-color: #2d3651;
+        opacity: 0.8;"></div>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-qa.png);"></div>
+        <h3 class="skill-item__title">
+          <a class="skill-item__link" href="#">Quality Assurance</a>
+        </h3>
+      </article>
+      <article class="skill-item">
+        <div class="skill-item__overlay" style="background-color: #2d3651;
+        opacity: 0.8;"></div>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-codding.png);"></div>
+        <h3 class="skill-item__title">
+          <a class="skill-item__link" href="#">Codding</a>
+        </h3>
+      </article>
+      <article class="skill-item">
+        <div class="skill-item__overlay" style="background-color: #2d3651;
+        opacity: 0.8;"></div>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-adaptability.png);"></div>
+        <h3 class="skill-item__title">
+          <a class="skill-item__link" href="#">Adaptability</a>
+        </h3>
+      </article>
+      <article class="skill-item">
+        <div class="skill-item__overlay" style="background-color: #2d3651;
+        opacity: 0.8;"></div>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-php.png);"></div>
+        <h3 class="skill-item__title">
+          <a class="skill-item__link" href="#">PHP</a>
+        </h3>
+      </article>
+      <article class="skill-item">
+        <div class="skill-item__overlay" style="background-color: #2d3651;
+        opacity: 0.8;"></div>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-seo.png);"></div>
+        <h3 class="skill-item__title">
+          <a class="skill-item__link" href="#">SEO</a>
+        </h3>
+      </article>
+    </div>
+    <div class="skills__actions">
+      <a href="#" class="btn btn--primary">View all skills</a>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Подключаем библиотеку jquery, необходимую для работы нашего основного скрипта -->
+  <script src="libs/jquery/dist/jquery.min.js"></script>
+  <!-- Подключаем наш основной скрипт, с которым будем работать -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

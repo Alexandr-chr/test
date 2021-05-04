@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  letter-spacing: 0.1em;
+  color: $color-gray;
+  font-family: $font-main;
+  font-size: 16px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.04em;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(53, 12, 12);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+  letter-spacing: 0.1em;
+
+  &:hover,
+  &:focus {
+    background-color: $color-accent;
+  }
+
+  &--light {
+    min-width: 205px;
+    height: 60px;
+
+    border: 2px solid $color-light;
+    background-color: rgba(248, 186, 212, 0.5);
+
+    font-size: 1.125rem;
+  }
+}

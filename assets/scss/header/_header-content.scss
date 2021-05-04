@@ -1,0 +1,76 @@
+.header-content {
+  position: relative;
+  /* background-color: rgb(226, 43, 43); */
+
+  &__container {
+    @extend %container;
+    // height: calc(100vh - 150px);
+    // border: 1px solid black;
+    // display: grid;
+    margin-top: 150px;
+    position: relative;
+  }
+
+&__image{
+  width: 50%;
+  height: 90%;
+  // background-color: red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+&__pic{
+  height: 100%;
+    padding-left: 10%;
+}
+
+  
+  &__flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 82vh;
+    width: 50%;
+  }
+
+  &__title {
+    
+    margin: 0;
+    // margin-top: 200px;
+    margin-bottom: 25px;
+    color: #346d79;
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 3.3rem;
+    padding-left: 35px;
+  }
+
+  &__list {
+    @include unlist;
+    padding-left: 35px;
+  }
+
+  &__item {
+    color: #224850;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+  }
+
+  &__item::before {
+    content: "";
+    background-image: url(../img/check-mark-icon.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-size: contain;
+    vertical-align: middle;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    padding-left: 35px;
+  }
+}

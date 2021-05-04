@@ -1,0 +1,26 @@
+.header {
+  position: relative;
+  display: grid;
+  // align-content: center;
+  min-height: 100vh;
+  color: #5f939e;
+  background-color: #e57af37a;
+  // background-image: url(/assets/img/img-header.png);
+  background-position: center;
+  background-size: cover;
+
+  &__wave{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    
+    
+    
+  }
+  &__wave-content{
+    width: 100%;
+    
+  }
+
+}

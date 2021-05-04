@@ -1,0 +1,33 @@
+.header-navbar {
+  grid-area: m4; /* задаем имя элемента */
+  // background: violet !important; /* цвет заднего фона */
+
+  &__list {
+    // display: grid;
+    // justify-content: end;
+
+    // grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
+     @include unlist(0 (-$gap) 0 0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+
+  &__item {
+    margin: 0 ($gap / 2);
+  }
+
+  &__link {
+    display: block;
+    padding: 10px;
+    color: #5f939e;
+    transition: color 0.5s;
+    font-size: 1.125rem;
+    
+    &:hover,
+    &:focus {
+      color: $color-accent;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.header-menu {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+
+
+
+  &__container {
+    display: grid;
+    @extend %container;
+    grid-template-areas: "m1 m1 m2 "
+    "m3 m4 m4 ";
+    grid-template-columns: 192.5px 192.5px 1fr;
+    grid-template-rows: 100px 50px;
+  }
+}
